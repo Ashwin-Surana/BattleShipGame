@@ -11,7 +11,7 @@ class Controller {
 	int currentTurn;
 public:
     Controller() {
-        userBot = new ComputerBot();
+        userBot = new UserBot();
         computerBot = new ComputerBot();
         srand(time(NULL));
         ofstream ofs;
